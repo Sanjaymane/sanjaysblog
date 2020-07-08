@@ -1,0 +1,65 @@
+.header-spacer--small {
+    height: 10px;
+}.pt100 {
+     padding-top: 60px;
+ }.curriculum-event-content,.text {
+      padding: 16px;
+  }
+.curriculum-event-content,.text1 {
+    padding: 10px;
+}
+.p-20 {
+    padding: 20px;
+    width: 570px;
+}.bg-light {
+     background-color: #f7f7f7;
+ }
+.apply_img{
+    text-align: center;
+    margin-top: 30px;
+    display: block;
+}
+.medium-padding100 {
+    padding: 50px 0;
+}.img-contact{
+     float: left;
+     margin-left: 22px;
+ }
+.img-contact1{
+    float: left;
+   /* margin-left: 50px;*/
+}
+@media (min-width: 1200px) {
+    .col-lg-offset-1 {
+        margin-left: 4.33333333%;
+    }
+    .map_space {
+        margin-left:4.0%;
+    }
+    }
+@media (max-width: 1200px) {
+    .p-20 {
+        padding: 20px;
+        width: 340px;
+    }
+    iframe{
+        height: auto;
+        width: auto;
+    }
+    .map_space {
+        margin-left:0px;
+    }
+
+}
+@media (max-width: 768px) {
+    .img-contact{
+        margin-left:0px;
+    }
+    .img-contact1{
+        margin-left:0px;
+    }
+}
+    .items-with-border input,.items-with-border textarea{
+        border: 2px solid transparent;
+        background-color: #fff;
+    }
